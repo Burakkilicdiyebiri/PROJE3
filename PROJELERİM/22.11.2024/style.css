@@ -1,0 +1,175 @@
+#anadiv{
+    width: 1000px;
+    height: 800px;
+    margin: 30px auto;
+    background-color: gray;
+}
+
+#ust{
+    width: 1000px;
+    height: 300px;
+    background-color: brown;
+}
+#ust img{
+    width: 1000px;
+    height: 200px;
+}
+#ust h1{
+    text-align: center;
+    position: relative;
+    top: -150px;
+    background-color: burlywood;
+    border: 1px solid;
+    border-radius: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#orta{
+    width: 996px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid rgb(1, 16, 54);
+}
+
+#sol{
+    margin: 20px;
+    width: 250px;
+    height: 460px;
+    background-color: rgb(54, 1, 97);
+    border: 2px solid rgb(23, 23, 24);
+    float: left;
+}
+
+
+#sol p{
+    padding: 15px 15px 15px 15px;
+    color: white;
+}
+
+
+#ortablm{
+    margin: 20px;
+    width: 360px;   
+    height: 460px;
+    background-color: rgb(65, 2, 73);
+    border: 2px solid rgb(23, 23, 24);
+    float: left;
+}
+#ortablm p{
+    padding: 15px 15px 15px 15px;
+    color: white;
+    
+}
+
+#sag{
+    margin: 20px;
+    width: 250px;   
+    height: 460px;
+    background-color: rgb(66, 2, 32);
+    border: 2px solid rgb(23, 23, 24);
+    float: right;
+}
+
+#sag p{
+    padding: 15px 15px 15px 15px;
+    color: white;
+}
+
+#alt{
+    width: 1000px;
+    height: 100px;
+    background-color: dimgrey;
+}
+
+#sabitkutu{
+    padding: 15px;
+    margin: 20px;
+    width: 250px;   
+    height: 460px;
+    background-color: rgb(6, 73, 133);
+    border: 2px solid rgb(23, 23, 24);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+ul#ustmenu{
+    background-color: black ;
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -720px;
+    right: -660px;
+   
+}
+
+ ul#ustmenu li{
+    float: left;
+    padding: 15px;
+}
+
+ul#ustmenu li a{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: azure;
+    border-radius: 15px;
+    padding: 20px;
+}
+ 
+ul#ustmenu li a:hover{
+    color: red;
+    background-color: black;
+    transition: 0.5s;
+}
+
+ul#ustmenu li a:active{
+    color: black;
+    background-color: red;
+
+}
+#sol ul{
+    list-style-type: none;
+}
+#sol ul li{
+    width: 80%;
+    text-align: center;
+
+}
+
+#sol ul li a{
+    display: block;
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+#sol ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#sol ul li a:active{
+    background-color: aqua;
+    color: black;
+    transition: 0.5s;
+    letter-spacing: 3px;
+}
+
+#sol a.active{
+    background-color: aqua;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#kırmızı').animate({left:'300px',height:'150px',width:'150px',top:'600px'}, 2000);
+            $('#sarı').animate({left:'300px',height:'150px',width:'150px',top:'-100px'}, 2000);
+            $('#yeşil').animate({left:'1200px',height:'150px',width:'150px',top:'225px'}, 2000);
+            $('#turuncu').animate({left:'1200px',height:'150px',width:'150px',top:'-400px'}, 2000);
+        })
+        
+    </script>
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="kırmızı" style="background-color: red; width: 200px; height: 200px; position: relative; left: 1500px;">
+        <h2>
+            kırmızı
+        </h2>
+    </div>
+    <div id="sarı" style="background-color: yellow; width: 200px; top: 500px; height: 200px; position: relative; left: 1500px;">
+        <h2>
+            sarı
+        </h2>
+    </div>
+    <div id="yeşil" style="background-color: green; width: 200px; height: 200px; position: relative; top: -350px; left: 100px;">
+        <h2>
+            yeşil
+        </h2>
+    </div>
+    <div id="turuncu" style="background-color: orange; width: 200px; height: 200px; position: relative; left: 100px;">
+        <h2>
+            turuncu
+        </h2>
+    </div>
+</body>
+</html>

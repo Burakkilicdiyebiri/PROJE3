@@ -1,0 +1,49 @@
+#kutu1{
+    width: 300px;
+    height: 400x;
+    background-color: red;
+    border: 15px;
+    border-radius: 15px;
+    margin: 150px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.452);
+}
+#kutu1 img{
+    width: 300px;
+    height: 250;
+}
+
+#kutu1 h1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+#anadiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#kutu1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+#kutu1 .resim2{
+    width: 300px;
+    height: 250px;
+}
+
+#kutu1:active{
+    width: 400px;
+    height: 400px;
+    transition: 0.5s;
+ 
+}
+
+#kutu1 img:active{
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+}

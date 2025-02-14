@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){ 
+            $("#islem1").click(function(){ 
+                $("span").css({"backgroundColor":"tomato","color":"white"});
+            });
+            $("#islem2").click(function(){ 
+                $("#kutu2").before("<span><u>Yeni<br>Kutu</u></span>");
+            });
+            $("#islem3").click(function(){ 
+                $("#kutu2").after("<span><u>Yeni<br>Kutu</u></span>");
+            });
+            $("#islem4").click(function(){ 
+                $("#cerceve").prepend("<span><u>Yeni<br>Kutu</u></span>");
+            });
+            $("#islem5").click(function(){ 
+                $("#cerceve").append("<span><u>Yeni<br>Kutu</u></span>");
+            });
+            $("#islem6").click(function(){ 
+                $("#kutu4").empty();
+            });
+            $("#islem7").click(function(){ 
+                $("#kutu4").remove();
+            });
+        });
+    </script>
+
+    <style>
+        
+        span{ 
+            width:50px; 
+            height:50px; 
+            background-color:white;
+            margin-right:10px;
+            display: inline-block;
+            font-size:20px;
+            color:rgb(40, 9, 243); 
+            text-align: center; }
+        input{ 
+            width: 240px;
+            margin-top: 3px; }
+    </style>
+</head>
+<body style="background-color:rgb(226, 241, 90); color: white;" >
+    <div id="cerceve" style="position: relative;">
+        <span id="kutu1">Kutu <br> 1</span>
+        <span id="kutu2">Kutu <br> 2</span>
+        <span id="kutu3">Kutu <br> 3</span>
+        <span id="kutu4">Kutu <br> 4</span>
+    </div>
+    <br>
+    <button id="islem1">Tüm Kutuları Boya</button><br>
+    <button id="islem2">Kutu 2'den önce ekle</button><br>
+    <button id="islem3">Kutu 2'^den sonra ekle</button><br>
+    <button id="islem4">Tüm kutuların önüne ekle</button><br>
+    <button id="islem5">Tüm kutuların sonuna ekle</button><br>
+    <button id="islem6">Kutu 4'ün içini boşaltır</button><br>
+    <button id="islem7">Kutu 4'ü kaldır</button><br>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: black;}
+@media screen and (min-width:600px)
+ {
+    body{
+        background-color: brown;
+    }
+}
+
+@media screen and (min-height:800px)
+{
+    body{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:1000px) 
+{
+    body{
+        background-color:#1ba24c;
+    }
+}
+div{text-align: center;}
+@media screen and (max-width:300px) 
+{
+    #kucukreklam{display:inline;}
+    #buyukreklam{visibility: hidden;}
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="reklamAlani">
+        <img src="https://picsum.photos/300/300" id="kucukReklam">
+        <img src="https://picsum.photos/1500/300" id="buyukReklam">
+    </div>
+</body>
+</html>

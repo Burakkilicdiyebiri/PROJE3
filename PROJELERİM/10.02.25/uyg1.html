@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var sayac = 10;
+        var a =  setInterval(function(){
+            document.getElementById("gorsel").style.display="none";
+            sayac = sayac -1;
+            document.getElementById("reklam").innerHTML=sayac;
+            if(sayac==0){
+                clearInterval(a);
+                document.getElementById("gorsel").style.display="inline";
+            }
+        }
+      
+    
+    ,1000)
+
+    </script>
+</head>
+<body>
+    <center>
+   <h1> <p id="reklam"> 10</p></h1>
+   <img src="images.jpg" alt="" id="gorsel">
+
+</center>
+</body>
+</html>

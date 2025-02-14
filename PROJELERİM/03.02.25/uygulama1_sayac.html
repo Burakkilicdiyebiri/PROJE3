@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function arttir(){
+            document.getElementById("sayac").innerText++;
+        }
+        function azalt(){
+            document.getElementById("sayac").innerText--;
+        }
+        function arttir1(){
+            document.getElementById("sayac1").innerText++;
+        }
+        function azalt1(){
+            document.getElementById("sayac1").innerText--;
+        }
+        function arttir2(){
+            document.getElementById("sayac2").innerText++;
+        }
+        function azalt2(){
+            document.getElementById("sayac2").innerText--;
+        }
+    </script>
+
+        <style>
+            .div1{
+                background-color:aqua; padding: 10px; font-size: large; width: 150px; height: 150px;
+                float: left;
+                margin-left: 15px;
+            }
+            .div2{
+                background-color:yellow; padding: 10px; font-size: large; width: 150px; height: 150px;
+                float: left;
+                margin-left: 15px;
+            }
+            .div3{
+                background-color:red; padding: 10px; font-size: large; width: 150px; height: 150px;
+                float: left;
+                margin-left: 15px;
+            }
+        </style>
+</head>
+<body bgcolor="gray" >
+    <div class="div1" >
+        <input type="button" onclick="arttir()" value="sayıyı arttır">
+        <h1 id="sayac">0</h1>
+        <input type="button" onclick="azalt()" value="sayıyı azalt">
+    </div>
+
+    <div class="div2" >
+        <input type="button" onclick="arttir1()" value="sayıyı arttır">
+        <h1 id="sayac1">0</h1>
+        <input type="button" onclick="azalt1()" value="sayıyı    azalt">
+    </div>
+
+    <div class="div3" >
+        <input type="button" onclick="arttir2()" value="sayıyı arttır">
+        <h1 id="sayac2">0</h1>
+        <input type="button" onclick="azalt2()" value="sayıyı azalt">
+    </div>
+</body>
+</html>

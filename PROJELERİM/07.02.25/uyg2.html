@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var sayi1;
+        for(sayi1=0;sayi1<=10;sayi1++){
+            document.getElementById("ekran1").innerHTML+=sayi1;
+        }
+
+        var sayi2;
+        for(sayi2=10;sayi2<=0;sayi2--){
+            document.getElementById("ekran2").innerHTML+=sayi2; 
+        }
+    </script>
+
+    <style>
+        #ekran1{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border: 2px solid black;
+            color: black;
+            float: left;
+            margin: 20px;
+        }
+
+        #ekran2{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border: 2px solid black;
+            color: black;
+            float: left;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="ekran1"> </div>
+    <div id="ekran2"> </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #tahtacerceve{
+            width: 240px; height: 240px; border: 3px solid black;
+        }
+        .kareBeyaz{width: 30px; height: 30px; background-color:white; float: left;}
+        .kareSiyah{width: 30px; height: 30px; background-color:black; float: left;}
+    </style>
+
+    <script>
+        function satranc(){
+            var enes, gözde;
+            for(enes=0;enes<8;enes++){
+                for(gözde=0;gözde<8;gözde++){
+                    if((enes+gözde)%2==0){
+                        document.getElementById("tahtacerceve").innerHTML+="<div class='kareBeyaz'></div>";
+                    }
+                    else{
+                        document.getElementById("tahtacerceve").innerHTML+="<div class='kareSiyah'></div>";
+                    }   
+                }
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div id="tahtacerceve"></div>
+    <input type="button" onclick="satranc()" value="Tahtayı Oluştur">
+</body>
+</html>

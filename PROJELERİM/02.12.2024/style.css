@@ -1,0 +1,89 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  #anakisim {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+  #üst {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: #815502;
+  }
+  
+  #üst h1.döner {
+
+    color: #f39c12;
+  }
+  
+  #üst h2.evi {
+    color: #3498db;
+  }
+  
+  #üst ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #üst ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #üst ul li a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffd000;
+    padding: 15px;
+    transition: 0.5s;
+    
+  }
+
+  #üst ul li a:hover{
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #ff9900;
+    padding: 20px
+    
+  }
+
+  #orta img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 350px;
+  }
+
+  #orta h3{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 500px;    
+  }
+
+  #orta .cırak{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -890px;
+    left: 1000px;
+  }
+
+  #orta .cırakh3{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -890px;
+    left: 1150px;
+  }
+

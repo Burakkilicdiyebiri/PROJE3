@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var sayac=10;
+        var yazibuyuk=20;
+        var bgcolor=["blue","red","yellow","gray","white","green","black","pink","aqua","cyan"]
+        var forcolor=["blue","red","yellow","gray","white","green","black","pink","aqua","cyan"]
+        function say(){
+            document.getElementById("alan").style.backgroundColor=bgcolor[sayac-1]
+            document.getElementById("alan").style.color=forcolor[sayac-1]
+            document.getElementById("alan").style.fontSize = yazibuyuk + "PX"
+            document.getElementById("alan").innerHTML= sayac;
+            if(sayac==0)
+            { clearInterval(x)}
+            sayac--;
+            yazibuyuk = yazibuyuk + 5;
+        }
+
+        function basla(){
+            x=setInterval(say,500);
+        }
+    </script>
+
+    <style>
+        #alan{
+            width: 500px;
+            height: 500px;
+            background-color: green;
+            position: relative;
+            left: 700px;
+            top: 250px;
+        }
+
+        #baslat{
+            position: relative;
+            left: 700px;
+            top: 200px;  
+        }
+    </style>
+</head>
+<body>
+    <div id="orta">
+        <div id="alan">
+            sayı
+            <input type="button" onclick="basla()" value="BAŞLAT" id="baslat">
+        </div>
+    </div>
+    
+    
+</body>
+</html>
